@@ -57,7 +57,7 @@ void method() {
   print("a * b = $c");
 }
 
-void methodmax() {
+void methodMax() {
   // ignore: prefer_function_declarations_over_variables
   Function max = (int a, int b) {
     if (a > b) {
@@ -80,5 +80,5 @@ void main() {
   int f = fib(10);
   print("fibonacci number 10 is: $f");
   method();
-  methodmax();
+  methodMax();
 }
