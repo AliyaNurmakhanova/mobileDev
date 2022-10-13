@@ -20,28 +20,32 @@ class Student {
     return name;
   }
 
-  void setKazakh(int math) {
-    this.kazakh = kazakh;
+  void setName(String? name) {
+    this.name = name;
   }
 
   int? getKazakh() {
     return kazakh;
   }
 
-  void setEnglish(int english) {
-    this.english = english;
+  void setKazakh(int kazakh) {
+    this.kazakh = kazakh;
   }
 
   int? getEnglish() {
     return english;
   }
 
-  void setKorean(int korean) {
-    this.korean = korean;
+  void setEnglish(int english) {
+    this.english = english;
   }
 
   int? getKorean() {
     return korean;
+  }
+
+  void setKorean(int korean) {
+    this.korean = korean;
   }
 
   void average() {
