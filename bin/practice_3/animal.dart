@@ -74,7 +74,7 @@ class ICanSwim extends Actions {
 }
 
 void main(List<String> args) {
-  Actions actions = ICanRun();
+  Actions actions = ICanFly();
   Animal obj = Dog(actions, "Alex");
   print(obj.name);
   obj.childPrint();
